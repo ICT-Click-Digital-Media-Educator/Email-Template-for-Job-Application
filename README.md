@@ -13,7 +13,7 @@ This repository contains an HTML email template designed for job applications. T
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/job-application-email-template.git
+   gh repo clone KTM-EduTech/Email-Template-for-Job-Application
 
 ## Modify the Template
 
