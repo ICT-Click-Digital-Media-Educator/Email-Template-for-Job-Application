@@ -1,0 +1,73 @@
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            body {
+                font-family: Poppins, sans-serif;
+                color: #2C2C2C;
+                margin-top: 50px;
+                padding: 0;
+                background-color: #f4f4f4;
+                background-image: url("https://i.ibb.co/hK0hnbs/bg04.jpg");
+                background-repeat: repeat;
+            }
+            .email-container {
+                max-width: 600px;
+                margin: auto;
+                background-image: url("https://wallpapers.com/images/hd/plain-white-background-gw80j3ubkacrbwua.jpg");
+                /* background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center; */
+                padding: 25px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .email-header {
+                text-align: right;
+            }
+            .email-footer {
+                text-align: left;
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+            .email-footer a {
+                text-decoration: none;
+                font-weight: 600;
+                color: #407cdc;
+            }
+            .logo {
+                max-width: 150px;
+            }
+            .email-body {
+                margin: 20px 0;
+            }
+            .email-body p {
+                line-height: 1.6;
+            }
+            .download-btn {
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 20px 0;
+                font-size: 16px;
+                color: #fff;
+                background-color: #407cdc;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            .download-btn:hover {
+                background-color: #305bb5;
+            }
+            .social-media a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #407cdc;
+            }
+            .disclaimer {
+                margin-top: 20px;
+                font-size: 11px;
+                text-align: justify;
+                /* color: #fff;
+                background: #407cdc; */
+            }
+            .divider {
+                border: 0;
+                height: 1px;
+                background: #407cdc;
+            }
