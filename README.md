@@ -42,7 +42,7 @@ Additionally, update the CV download link:
 
 Below is a sample of how the email template will look:
 
-![Sample Email](https://example.com/sample-email.png)
+![Sample Email](https://github.com/KTM-EduTech/Email-Template-for-Job-Application/blob/main/emailtemplate.png?raw=true)
 
 ## License
 
