@@ -49,8 +49,26 @@
             </section>
             <footer class="email-footer">
                 <p>
-                    &copy; 2024 <a href="https://www.kydmasong.net/" target="_blank">KTM EduTech</a>. 
+                    &copy; 2024 <a href="https://www.kydmasong.net/" target="_blank">KTM EduTech</a>. | Local Time: <span id="time"></span>
                 </p>
+             
+                <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            
+            document.getElementById('time').textContent = timeString;
+        }
+
+        // Update time every second
+        setInterval(updateTime, 1000);
+
+        // Initialize time immediately
+        updateTime();
+    </script>
             </footer>
         </div>
     </body>
